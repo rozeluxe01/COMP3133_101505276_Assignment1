@@ -43,19 +43,19 @@ You can run the application in two ways:
 
 ### OPTION 1 — Run Locally (without Docker)
 
-1. Clone the repository
+#### 1. Clone the repository
 
 ```
 git clone <YOUR_REPO_URL>
 cd COMP3133_101505276_Assignment1
 ```
 
-2. Install Dependencies
+#### 2. Install Dependencies
 ```
 npm install
 ```
 
-3. Create .env file
+#### 3. Create .env file
 ```
 PORT=4000
 
@@ -69,7 +69,7 @@ CLOUD_KEY=your_cloudinary_api_key
 CLOUD_SECRET=your_cloudinary_api_secret
 ```
 
-4. Start the server
+#### 4. Start the server
 
 Development mode:
 ```
@@ -83,28 +83,28 @@ npm start
 
 ### OPTION 2 — Run Using Docker (Recommended)
 
-1. Build the Docker image
+#### 1. Build the Docker image
 
 From the project folder
 ```
 docker build -t comp3133-assignment1 
 ```
 
-2. Run the container
+#### 2. Run the container
 
 Before running the container make sure you have created your .env file as shown from option 1
 ```
 docker run --name comp3133-app --env-file .env -p 4000:4000 comp3133-assignment1
 ```
 
-3. Access the API
+#### 3. Access the API
 
 Open:
 ```
 http://localhost:4000/graphql
 ```
 
-4. Stop / Restart / Remove Container
+#### 4. Stop / Restart / Remove Container
 
 Stop:
 ```
