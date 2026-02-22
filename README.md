@@ -90,7 +90,7 @@ docker build -t comp3133-assignment1
 
 2. Run the container
 
-Before running the container make sure you have created your .env file as show from option 1
+Before running the container make sure you have created your .env file as shown from option 1
 ```
 docker run --name comp3133-app --env-file .env -p 4000:4000 comp3133-assignment1
 ```
