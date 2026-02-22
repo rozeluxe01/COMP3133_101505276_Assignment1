@@ -70,6 +70,7 @@ CLOUD_SECRET=your_cloudinary_api_secret
 ```
 
 4. Start the server
+
 Development mode:
 ```
 npm run dev
@@ -83,6 +84,7 @@ npm start
 ### OPTION 2 — Run Using Docker (Recommended)
 
 1. Build the Docker image
+
 From the project folder
 ```
 docker build -t comp3133-assignment1 
@@ -96,12 +98,14 @@ docker run --name comp3133-app --env-file .env -p 4000:4000 comp3133-assignment1
 ```
 
 3. Access the API
+
 Open:
 ```
 http://localhost:4000/graphql
 ```
 
 4. Stop / Restart / Remove Container
+
 Stop:
 ```
 docker stop comp3133-app
